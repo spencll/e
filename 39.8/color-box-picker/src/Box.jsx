@@ -9,7 +9,7 @@ function Box({ id, bgColor, width, height, onDelete }) {
   };
 
   return (
-    <div style={{ width: width, height: height, backgroundColor: bgColor }}>
+    <div>
       Here is box
       <button onClick={handleDelete}>Delete</button>
     </div>
